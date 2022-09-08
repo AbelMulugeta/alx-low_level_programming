@@ -6,7 +6,8 @@
  */
 int main(void)
 {
-char ch;	
+
+char ch;
 int int_g;
 long int long_int;
 long long int l_l_int;
