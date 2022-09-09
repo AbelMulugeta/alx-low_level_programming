@@ -5,29 +5,29 @@
 **/
 int main(vid)
 {
-int a = 0;
+int a = "0";
 int b;
 int c;
 
-while (a <= 7)
+while (a <= '7')
 {
 b = a + 1;
-while (b <= 8)
+while (b <= '8')
 {
 c = b + 1;
-while (c <= 9)
+while (c <= '9')
 {
 putchar(a);
 putchar(b);
 putchar(c);
-if (a == 7 && b == 8 && c == 9)
+if (a == '7' && b == '8' && c == '9')
 {
-putchar(n);
+putchar('\n');
 }
 else
 {
-putchar(,);
-putchar( );
+putchar(',');
+putchar(' ');
 }
 c++;
 }
