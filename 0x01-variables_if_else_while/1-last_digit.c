@@ -3,7 +3,7 @@
 #include <stdio.h>
 /**
  * main - Determine if the last digit of a random number
- * wheather greater than or so 
+ * wheather greater than or so
  * Return: 0 on success
  */
 
