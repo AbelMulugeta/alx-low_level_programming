@@ -3,9 +3,9 @@
 * main - loop
 * Return: 0
 **/
-int main(vid)
+int main(void)
 {
-int a = "0";
+int a = '0';
 int b;
 int c;
 
