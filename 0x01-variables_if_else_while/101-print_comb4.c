@@ -1,39 +1,39 @@
 #include <stdio.h>
 /**
-* main -  a,b,c printing digits
+* main - loop
 * Return: 0
 **/
-int main(void)
+int main(vid)
 {
-int x = 0;
-int y;
-int z;
+int a = 0;
+int b;
+int c;
 
-while (x <= '7')
+while (a <= 7)
 {
-y = x + 1;
-while (y <= '8')
+b = a + 1;
+while (b <= 8)
 {
-z = y + 1;
-while (z <= '9')
+c = b + 1;
+while (c <= 9)
 {
-putchar(x);
-putchar(y);
-putchar(z);
-if (x == '7' && y == '8' && z == '9')
+putchar(a);
+putchar(b);
+putchar(c);
+if (a == 7 && b == 8 && c == 9)
 {
-putchar('\n');
+putchar(n);
 }
 else
 {
-putchar(',');
-putchar(' ');
+putchar(,);
+putchar( );
 }
-z++;
+c++;
 }
-y++;
+b++;
 }
-x++;
+a++;
 }
 return (0);
 }
