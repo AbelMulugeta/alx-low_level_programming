@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
   * main - ommits q  & s and prints every letter
-  * Return: 0 
+  * Return: 0
 **/
 int main(void)
 {
@@ -12,7 +12,7 @@ int main(void)
 		if (ch != 'q' && ch != 'e')
 		putchar(ch);
 
-	}	
+	}
 
 	putchar('\n');
 	return (0);
