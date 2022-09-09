@@ -3,6 +3,11 @@
 #include <stdio.h>
 /* more headers goes there */
 /* betty style doc for function main goes there */
+/**
+ * main - Description checks if a random number is postive or negative
+ *
+ * Return: 0 on success
+ */
 int main(void)
 {
 
