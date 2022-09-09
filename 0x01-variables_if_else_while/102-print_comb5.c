@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
 * main - loop through variables
-* Return:
+* Return: 0
 **/
 int main(void)
 {
