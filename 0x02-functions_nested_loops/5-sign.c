@@ -2,6 +2,7 @@
 /**
  * print_sign - Print the sign of a numb
  * Return: 1 if +, 0 if 0, and -1 if -
+ * @n: type
  */
 int print_sign(int n)
 {
