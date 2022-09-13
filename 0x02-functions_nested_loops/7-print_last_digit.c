@@ -4,7 +4,7 @@
  * @n: type
  * Return: return value of last digit
  */
-int print_last_digit(int n)
+int print_last_digit(int i)
 {
 int x;
 
@@ -19,7 +19,5 @@ else
 x = i % 10;
 _putchar(x + '0');
 return (x);
-
 }
-
 }
