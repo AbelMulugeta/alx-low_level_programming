@@ -2,6 +2,7 @@
 /**
  * _abs - compute the absolute value of an integer
  * Return: absolute value of @n
+ * @n:type
  */
 int _abs(int n)
 {
