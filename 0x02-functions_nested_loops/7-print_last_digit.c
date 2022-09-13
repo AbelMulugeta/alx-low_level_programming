@@ -4,19 +4,19 @@
  * @n: type
  * Return: return value of last digit
  */
-int print_last_digit(int i)
+int print_last_digit(int n)
 {
 int x;
 
-if (i < 0)
+if (n < 0)
 {
-x = -1 * (i % 10);
+x = -1 * (n % 10);
 _putchar(x + '0');
 return (x);
 }
 else
 {
-x = i % 10;
+x = n % 10;
 _putchar(x + '0');
 return (x);
 }
