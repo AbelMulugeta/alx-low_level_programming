@@ -11,10 +11,10 @@ while (i < 10)
 
 {
 repeat = 'a';
-while (c <= 'z')
+while (repeat <= 'z')
 {
-_putchar(c);
-c++;
+_putchar(repeat);
+repeat++;
 }
 _putchar('\n');
 i++;
