@@ -20,7 +20,7 @@ for (n = 0; n < size; n++)
 {
 for (c = 0; c < size; c++)
 {
-m = size - l - 1;
+m = size - 1 - 1;
 if (c < m)
 {
 _putchar(' ');
