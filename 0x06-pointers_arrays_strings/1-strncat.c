@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
 * *_strncat - Adding two strings.
 * @dest: string to be appended
@@ -6,12 +7,14 @@
 * @n: number of bytes from src
 * Return: a pointer to the resulting string dest
 **/
+
 char *_strncat(char *dest, char *src, int n)
 {
 
-int x,y;
+int x;
+int y;
 
-if (n <= '\0')
+if (n <= 0)
 {
 return (dest);
 }
