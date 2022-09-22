@@ -15,9 +15,9 @@ int i;
 int y;
 
 y = n - 1;
-
-for (i = 0; i < y; i++, y--)
+for (i = 0; i < y; i++)
 {
+y--;
 x = a[i];
 a[i] = a[y];
 a[y] = x;
