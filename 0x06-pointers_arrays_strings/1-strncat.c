@@ -8,14 +8,17 @@
 **/
 char *_strncat(char *dest, char *src, int n)
 {
+
 int x,y;
 
 if (n <= 0)
 {
 return (dest);
 }
+
 x = 0;
 y = 0;
+
 while (dest[x] != '\0')
 {
 x++;
