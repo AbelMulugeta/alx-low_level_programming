@@ -11,7 +11,7 @@ char *_strncat(char *dest, char *src, int n)
 
 int x,y;
 
-if (n <= 0)
+if (n <= '\0')
 {
 return (dest);
 }
